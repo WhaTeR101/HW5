@@ -35,10 +35,15 @@ header nav li a:hover {
 .banner-div p {
   font-size: 22px;
   font-family: 'poppins';
+  text-shadow: 0px 2px 5px rgb(173, 143, 75);
 }
 .banner-div h2 {
   font-size: 48px;
   font-family: 'playfair-bold';
+  /* text-shadow: h-shadow v-shadow
+   blur-radius 
+   color|none|initial|inherit; */
+  text-shadow: 0px 2px 5px rgb(173, 143, 75);
 }
 .popular {
   padding: 90px 120px 0px 120px;
@@ -93,6 +98,7 @@ header nav li a:hover {
   border: 2px solid #ff7a00;
   cursor: pointer;
   background-color: #ff7a00;
+  box-shadow: 0px 4px 8px grey;
 }
 .load-more-button:hover {
   color: black;
@@ -129,11 +135,15 @@ header nav li a:hover {
   color: #ff7a00;
 }
 .about-info li:hover {
-  transition: 0.5s;
+  transition: 0.2s;
   color: #ff7a00;
 }
 .pay-flex {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.pay-flex a:hover {
+  border: 2px solid rgb(186, 186, 186);
+  transition: 0.3s;
 }

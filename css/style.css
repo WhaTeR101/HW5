@@ -1,0 +1,139 @@
+header {
+  padding: 1% 0% 3% 10%;
+}
+.bazer-logo {
+  vertical-align: middle;
+  margin-right: 125px;
+}
+header nav {
+  display: inline-block;
+}
+header nav li {
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'poppins';
+  margin-right: 50px;
+}
+header nav li a:hover {
+  color: #ff7a00;
+  transition-duration: 0.5s;
+}
+.banner {
+  width: 100%;
+  position: relative;
+}
+.banner-div {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.banner-div p {
+  font-size: 22px;
+  font-family: 'poppins';
+}
+.banner-div h2 {
+  font-size: 48px;
+  font-family: 'playfair-bold';
+}
+.popular {
+  padding: 90px 120px 0px 120px;
+}
+.popular h2 {
+  color: #ff7a00;
+  font-family: 'poppins';
+  font-size: 22px;
+}
+.popular div article {
+  width: 46%;
+  margin-top: 7%;
+}
+.article-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 8%;
+  transform: translatex(-2%);
+}
+.popular div article h3 {
+  font-size: 36px;
+  font-family: 'playfair';
+  font-weight: bold;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.popular div article p {
+  font-size: 16px;
+  font-family: 'poppins';
+  margin-bottom: 2%;
+}
+.popular div article a {
+  font-size: 14px;
+  font-family: 'poppins';
+  color: #ff7a00;
+}
+.popular div article a:hover {
+  transition-duration: 0.5s;
+  color: black;
+}
+.load-more {
+  text-align: center;
+  margin: 8% 4%;
+}
+.load-more-button {
+  color: white;
+  font-family: 'poppins';
+  text-decoration: none;
+  transition: 0.5s;
+  padding: 1.5%;
+  border: 2px solid #ff7a00;
+  cursor: pointer;
+  background-color: #ff7a00;
+}
+.load-more-button:hover {
+  color: black;
+  background-color: white;
+}
+.black-bar {
+  margin-top: 10%;
+  margin-bottom: 7%;
+}
+.black-bar img {
+  width: 100%;
+}
+.about-info {
+  padding: 0% 5% 5% 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.about-info h4 {
+  font-size: 24px;
+  font-family: 'poppins';
+  margin-bottom: 8%;
+}
+.about-info a,
+.about-info li {
+  color: black;
+  font-size: 16px;
+  font-family: 'poppins';
+  margin-bottom: 15px;
+}
+.about-info a:hover {
+  transition: 0.5s;
+  color: #ff7a00;
+}
+.about-info li:hover {
+  transition: 0.5s;
+  color: #ff7a00;
+}
+.pay-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
